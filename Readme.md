@@ -51,4 +51,3 @@ terraform destroy
 ```sh
    aws configure get region
    ```
-## My first ec2 instance launched from terraform on 23 April 2026 at 04:16
