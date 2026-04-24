@@ -33,6 +33,9 @@ terraform show
 ## Delete all resources created
 terraform destroy
 
+## Modify EC2 Instance type 
+terraform plan -var instance_type=t2.large
+
 ## Check name AMI in specific region
 
 ```sh
@@ -46,6 +49,8 @@ terraform destroy
     --output table \
     --region us-east-1
     ```
+## Vérifie si AWS CLI fonctionne
+aws sts get-caller-identity
 
 ## Get default region
 ```sh
